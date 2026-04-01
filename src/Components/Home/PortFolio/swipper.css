@@ -1,0 +1,19 @@
+.swiper-button-prev {
+
+    color: black;
+}
+
+.swiper-button-next {
+
+    color: black;
+}
+
+.swiper-slide-shadow-left {
+
+    opacity: 0 !important;
+}
+
+.swiper-slide-shadow-right {
+
+    opacity: 0 !important;
+}

@@ -1,0 +1,132 @@
+[
+    {
+        "id": "A",
+        "project": "E-MOBO",
+        "title": "Resale E-commerse Site",
+        "details": "E-MOBO is a resale ecommerse site where you can purchase any resale mobile phone",
+        "feature": {
+            "f1": "The site is built with three types of users, 1. buyer, 2. seller, and 3. admin.",
+            "f2": "Admin can manage all the buyers and sellers and also verify sellers.",
+            "f3": "Seller can post and advertise products that buyers can purchase by payment using stripe.",
+            "f4": "It is full responsive using tailwind and routing functionality all over the website.",
+            "f5": "website has a blog page and where you can see leatest blog on interesting topics."
+        },
+        "Technologies": "React.JS, Express.JS, Firebase, REST API, tailwind, ES6, Mongo DB, JWT etc",
+        "img": {
+            "img1": "https://i.ibb.co/BsQg8TR/pic.png",
+            "img2": "https://i.ibb.co/qR60tLq/Capture.png",
+            "img3": "https://i.ibb.co/k1g2PXc/Capture3.png",
+            "img4": "https://i.ibb.co/nnKs04y/Capture4.png",
+            "img5": "https://i.ibb.co/KbFCGn9/Capture5.png",
+            "img6": "https://i.ibb.co/RTpWj8k/Capture6.png"
+        },
+        "live": "https://e-mobo.web.app/",
+        "client": "https://e-mobo.web.app/",
+        "server": "https://e-mobo.web.app/",
+        "project_id": 1
+    },
+    {
+        "id": "B",
+        "project": "DEVENTS",
+        "title": "Event Management Site",
+        "details": "DEVENTS is an event management site where you can hire a proffesional photographer",
+        "feature": {
+            "f1": "The website is fully responsive with bootstrap",
+            "f2": "You can hire an experienced photographer for your specific event from services.",
+            "f3": "Customers can add any specific reviews according to any service.",
+            "f4": "Without login a user can't add his own review but can see any service review",
+            "f5": "website has a blog page and where you can see leatest blog on interesting topics."
+        },
+        "Technologies": "React.JS, Express.JS, Firebase, REST API, Bootstrap, ES6, Mongo DB, JWT etc.",
+        "img": {
+            "img1": "https://i.ibb.co/C6Nfn3G/pic2.png",
+            "img2": "https://i.ibb.co/yyPxWTy/Capture.png",
+            "img3": "https://i.ibb.co/SKKtf7W/Capture3.png",
+            "img4": "https://i.ibb.co/h2pKSKx/Capture4.png",
+            "img5": "https://i.ibb.co/Xp74VVd/Capture2.png",
+            "img6": "https://i.ibb.co/g6Z4hPH/Capture-5-PNG.png"
+        },
+        "live": "https://devent-88723.web.app/",
+        "client": "https://github.com/redoykhan28/dev-devents-server",
+        "server": "https://github.com/redoykhan28/dev-devents-client",
+        "project_id": 2
+    },
+    {
+        "id": "C",
+        "project": "Skill Edge",
+        "title": "E-Learning Platform",
+        "details": "Skill Edge is an E-learning website where you can purchase any course to improve skills.",
+        "feature": {
+            "f1": "The Website is fully responsive using bootstrap",
+            "f2": "Any users can log in and purchase a course.",
+            "f3": "It also comes with a modern UI design with both dark and light modes.",
+            "f4": "Without login a user can't enters to the checkout and user profile pages.",
+            "f5": "You can update your profile information from profile section."
+        },
+        "Technologies": " React.JS, Express.JS, Firebase, bootstrap, ES6, Git, REST API, Vercel.",
+        "img": {
+            "img1": "https://i.ibb.co/B2Xvwjx/pic3.png",
+            "img2": "https://i.ibb.co/khhbS8F/Capture.png",
+            "img3": "https://i.ibb.co/wRzxhCZ/Capture2.png",
+            "img4": "https://i.ibb.co/gRn64gM/Capture4.png",
+            "img5": "https://i.ibb.co/Vtsnkwx/Capture5.png",
+            "img6": "https://i.ibb.co/b6cvr2T/Capture6.png"
+        },
+        "live": "https://skilled-edge-e-learning-site.web.app/",
+        "client": "https://github.com/redoykhan28/dev-skill-edge-client",
+        "server": "https://github.com/redoykhan28/dev-skill-edge-server",
+        "project_id": 3
+    },
+    {
+        "id": "D",
+        "project": "AnyCare",
+        "title": "Appoinment Management Web App",
+        "details": "AnyCare is a pet appointment scheduling website where you can schedule a appointment to experts.",
+        "feature": {
+            "f1": "The Website is fully responsive using tailwind.",
+            "f2": "Visitors need to be login for appoinment schedule .",
+            "f3": "After booked a Schedule, User can cancel or reschedule it.",
+            "f4": "There's an admin panel where admin can manage users and all the appoinments.",
+            "f5": "Admin can make any user to admin."
+        },
+        "Technologies": " React.JS, Express.JS, Firebase, Tailwind, ES6, GitHub, REST API, Vercel, JWT etc",
+        "img": {
+            "img1": "https://i.ibb.co/c2cy2jb/1.png",
+            "img2": "https://i.ibb.co/bK6FJcz/2.png",
+            "img3": "https://i.ibb.co/ZKHfwbF/3.png",
+            "img4": "https://i.ibb.co/sVV082z/4.png",
+            "img5": "https://i.ibb.co/Cmw6R1t/5.png",
+            "img6": "https://i.ibb.co/fvvTk3P/6.png"
+        },
+        "live": "https://anicare.netlify.app/home",
+        "client": "https://github.com/redoykhan28/schedulo-client",
+        "server": "https://github.com/redoykhan28/schedulo-server",
+        "project_id": 4
+    },
+    {
+        "id": "E",
+        "project": "Furnicore",
+        "title": "E-commerse Web Application",
+        "details": "Furnicore is an E-commerse site where you can purchase your desiger furniture for your home or office.",
+        "feature": {
+            "f1": "The Website is fully responsive using tailwind.",
+            "f2": "Here we can get 2 type of user, 1.customer, 2.Admin.",
+            "f3": "Without login a user can't order any furniture",
+            "f4": "Admin has a dashboard with summery of information.",
+            "f5": "Admin can manage users, orders."
+        },
+        "Technologies": " React.JS, Express.JS, Firebase, Tailwind, ES6, GitHub, REST API, Vercel, JWT etc",
+        "img": {
+            "img1": "https://i.ibb.co/KyW5dkh/1.png",
+            "img2": "https://i.ibb.co/7GL2LN4/2.png",
+            "img3": "https://i.ibb.co/9g7bTmr/3.png",
+            "img4": "https://i.ibb.co/Hp9X0hx/4.png",
+            "img5": "https://i.ibb.co/p0sztTP/5.png",
+            "img6": "https://i.ibb.co/1qsz6Jc/6.png"
+        },
+        "live": "https://furnicore.netlify.app/home",
+        "client": "https://github.com/redoykhan28/furnicore-client",
+        "server": "https://github.com/redoykhan28/furnicore-server",
+        "project_id": 5
+    }
+]

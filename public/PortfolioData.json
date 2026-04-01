@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "project": "E-MOBO",
+        "description": "E-MOBO is a resale ecommerse site where you can purchase any resale mobile phone",
+        "img": "https://i.ibb.co/BsQg8TR/pic.png"
+    },
+    {
+        "id": 2,
+        "project": "DEVENTS",
+        "description": "DEVENTS is an event management site where you can hire a proffesional photographer",
+        "img": "https://i.ibb.co/C6Nfn3G/pic2.png"
+    },
+    {
+        "id": 3,
+        "project": "Skill Edge",
+        "description": "Skill Edge is an E-learning website where you can purchase any course to improve skills.",
+        "img": "https://i.ibb.co/B2Xvwjx/pic3.png"
+    },
+    {
+        "id": 4,
+        "project": "AniCare",
+        "description": "AnyCare is a pet appointment scheduling website where you can schedule a appointment to experts",
+        "img": "https://i.ibb.co/c2cy2jb/1.png"
+    },
+    {
+        "id": 5,
+        "project": "Furnicore",
+        "description": "Furnicore is an E-commerse site where you can purchase your desiger furniture for your home or office.",
+        "img": "https://i.ibb.co/KyW5dkh/1.png"
+    }
+]
