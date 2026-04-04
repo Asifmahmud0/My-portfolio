@@ -2,8 +2,8 @@ import React, { useContext, useEffect, useState } from 'react';
 import { FaArrowDown, FaLinkedinIn, FaRegEnvelope } from "react-icons/fa";
 import { GoMarkGithub } from "react-icons/go";
 import { modeContext } from '../../../Context/ModeContext';
-import img from '../../../Images/Capture3.PNG'
-import img2 from '../../../Images/Capture5.PNG'
+import img from '../../../Images/asiff.png'
+import img2 from '../../../Images/asiff.png'
 import './Header.css'
 
 
@@ -19,7 +19,7 @@ const Header = () => {
     const [delta, setDelta] = useState(300 - Math.random() * 100)
     const period = 2000;
 
-    const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"]
+    const toRotate = ["Wordpress Developer", "Web Designer", "Shopify Developer"]
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -69,20 +69,20 @@ const Header = () => {
 
                                 </div>
                                 :
-                                <div data-aos="zoom-in" className=" avatar">
+                                <div data-aos="zoom-/static/media/asiff.png" className=" avatar">
                                     <div className="w-40 border-8 shadow-lg border-white rounded-full">
                                         <img src={img} alt="img" />
                                     </div>
                                 </div>
                         }
                         <div className='my-8'>
-                            <h1 data-aos={mode ? '' : "fade-up"} className={mode ? 'text-3xl text-white font-extrabold' : 'text-3xl font-extrabold'}>SEZAN <span className={mode ? 'text' : 'text-accent'}>AHMED</span></h1>
+                            <h1 data-aos={mode ? '' : "fade-up"} className={mode ? 'text-3xl text-white font-extrabold' : 'text-3xl font-extrabold'}>ASIF <span className={mode ? 'text' : 'text-accent'}>IKBAL</span></h1>
                             <p className={mode ? 'text font-semibold' : 'text-accent font-semibold'}>I'm a <span>{text}</span> </p>
                             <div data-aos={mode ? '' : "zoom-in"} className='my-4 flex justify-center'>
-                                <a href='https://www.linkedin.com/in/sezan-ahmed/' target={'_blank'} className={mode ? "btn btn-sm btn-circle bg-neutral shadow-xl border-0 mx-1" : "btn btn-sm btn-circle bg-white shadow-lg border-0 mx-1 hover:bg-base-200"}>
+                                <a href='https://www.linkedin.com/in/md-asif-ikbal-113982288/' target={'_blank'} className={mode ? "btn btn-sm btn-circle bg-neutral shadow-xl border-0 mx-1" : "btn btn-sm btn-circle bg-white shadow-lg border-0 mx-1 hover:bg-base-200"}>
                                     <FaLinkedinIn className='text-blue-600'></FaLinkedinIn>
                                 </a>
-                                <a href='https://github.com/redoykhan28' target={'_blank'} className={mode ? "btn btn-sm btn-circle bg-neutral shadow-lg border-0 mx-1" : "btn btn-sm btn-circle bg-white shadow-lg border-0 mx-1 hover:bg-base-200"}>
+                                <a href='https://github.com/Asifmahmud0' target={'_blank'} className={mode ? "btn btn-sm btn-circle bg-neutral shadow-lg border-0 mx-1" : "btn btn-sm btn-circle bg-white shadow-lg border-0 mx-1 hover:bg-base-200"}>
                                     <GoMarkGithub className='text-accent'></GoMarkGithub>
                                 </a>
                                 <a href='#contact' className={mode ? "btn btn-sm btn-circle bg-neutral shadow-lg border-0 mx-1" : "btn btn-sm btn-circle bg-white shadow-lg border-0 mx-1 hover:bg-base-200"}>

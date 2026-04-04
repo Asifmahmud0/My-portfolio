@@ -37,7 +37,7 @@ const Nav = () => {
                             <li><a href='#skills'>Skills</a></li>
                             <li><a href='#portfolio'>Portfolio</a></li>
                             <li><a href='#contact'>Contact</a></li>
-                            <li><a href="https://drive.google.com/file/d/12t5iqjGm5MLATgoXH7xdtxrD-y_L9BJ-/view?usp=share_link" target={'_blank'} >Resume</a></li>
+                            <li><a href="https://drive.google.com/file/d/1wg8y9hzt8HDKqYf0QwQHiyRLoS2pfTz3/view?usp=sharing" target={'_blank'} >Resume</a></li>
 
                         </ul>
                     </div>
@@ -60,7 +60,7 @@ const Nav = () => {
                             :
                             <FaSun onClick={toogleHandlerDark} className='text-xl cursor-pointer font-bold mx-6'></FaSun>
                     }
-                    <a href='https://drive.google.com/file/d/12t5iqjGm5MLATgoXH7xdtxrD-y_L9BJ-/view?usp=share_link' target={'_blank'} className={mode ? "btn bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full text-white hidden lg:flex" : "btn btn-accent rounded-full hidden lg:flex text-white"}>Download resume <FaCloudDownloadAlt className='mx-2'></FaCloudDownloadAlt></a>
+                    <a href='https://drive.google.com/file/d/1wg8y9hzt8HDKqYf0QwQHiyRLoS2pfTz3/view?usp=sharing' target={'_blank'} className={mode ? "btn bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full text-white hidden lg:flex" : "btn btn-accent rounded-full hidden lg:flex text-white"}>Download resume <FaCloudDownloadAlt className='mx-2'></FaCloudDownloadAlt></a>
                 </div>
             </div>
         </div>
