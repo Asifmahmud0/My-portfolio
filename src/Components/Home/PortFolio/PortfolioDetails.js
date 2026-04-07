@@ -14,7 +14,7 @@ const PortfolioDetails = () => {
     console.log(_id)
 
     useEffect(() => {
-        fetch('https://raw.githubusercontent.com/redoykhan28/react-portfolio/main/public/projectDetails.json')
+        fetch('/projectDetails.json')
             .then(res => res.json())
             .then(data => {
                 const currentProject = data?.find(project => project?.project_id === parseInt(_id?.id))
@@ -45,51 +45,62 @@ const PortfolioDetails = () => {
             </div>
 
             <div className='mt-10'>
-                <div className="carousel lg:w-9/12 mx-auto rounded-2xl ">
-                    <div id="slide1" className="carousel-item relative w-full">
-                        <img src={details?.img?.img1} className="w-full" alt='img' />
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide4" className="btn btn-circle">❮</a>
-                            <a href="#slide2" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide2" className="carousel-item relative w-full">
-                        <img src={details?.img?.img2} className="w-full" alt='img' />
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide1" className="btn btn-circle">❮</a>
-                            <a href="#slide3" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide3" className="carousel-item relative w-full">
-                        <img src={details?.img?.img3} className="w-full" alt='img' />
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide2" className="btn btn-circle">❮</a>
-                            <a href="#slide4" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide4" className="carousel-item relative w-full">
-                        <img src={details?.img?.img4} className="w-full" alt='img' />
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide3" className="btn btn-circle">❮</a>
-                            <a href="#slide1" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide5" className="carousel-item relative w-full">
-                        <img src={details?.img?.img5} className="w-full" alt='img' />
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide4" className="btn btn-circle">❮</a>
-                            <a href="#slide6" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide6" className="carousel-item relative w-full">
-                        <img src={details?.img?.img6} className="w-full" alt='img' />
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide5" className="btn btn-circle">❮</a>
-                            <a href="#slide1" className="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                </div>
+    <div className="carousel lg:w-9/12 mx-auto rounded-2xl shadow-xl">
+        {/* Slide 1 */}
+        <div id="slide1" className="carousel-item relative w-full">
+            <img src={details?.img?.img1} className="w-full h-[500px] object-cover" alt='img' />
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide6" className="btn btn-circle">❮</a> {/* Points to Last Slide */}
+                <a href="#slide2" className="btn btn-circle">❯</a>
             </div>
+        </div>
+
+        {/* Slide 2 */}
+        <div id="slide2" className="carousel-item relative w-full">
+            <img src={details?.img?.img2} className="w-full h-[500px] object-cover" alt='img' />
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" className="btn btn-circle">❮</a>
+                <a href="#slide3" className="btn btn-circle">❯</a>
+            </div>
+        </div>
+
+        {/* Slide 3 */}
+        <div id="slide3" className="carousel-item relative w-full">
+            <img src={details?.img?.img3} className="w-full h-[500px] object-cover" alt='img' />
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" className="btn btn-circle">❮</a>
+                <a href="#slide4" className="btn btn-circle">❯</a>
+            </div>
+        </div>
+
+        {/* Slide 4 */}
+        <div id="slide4" className="carousel-item relative w-full">
+            <img src={details?.img?.img4} className="w-full h-[500px] object-cover" alt='img' />
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" className="btn btn-circle">❮</a>
+                <a href="#slide5" className="btn btn-circle">❯</a> {/* FIXED: Was pointing to #slide1 */}
+            </div>
+        </div>
+
+        {/* Slide 5 */}
+        <div id="slide5" className="carousel-item relative w-full">
+            <img src={details?.img?.img5} className="w-full h-[500px] object-cover" alt='img' />
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" className="btn btn-circle">❮</a>
+                <a href="#slide6" className="btn btn-circle">❯</a>
+            </div>
+        </div>
+
+        {/* Slide 6 */}
+        <div id="slide6" className="carousel-item relative w-full">
+            <img src={details?.img?.img6} className="w-full h-[500px] object-cover" alt='img' />
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide5" className="btn btn-circle">❮</a>
+                <a href="#slide7" className="btn btn-circle">❯</a> {/* Loops back to First Slide */}
+            </div>
+        </div>
+    </div>
+</div>
 
             <div className={mode ? 'w-full lg:w-9/12 mx-auto bg-neutral text-white my-10 p-10 rounded-xl' : 'w-full lg:w-9/12 mx-auto bg-white my-10 p-10 rounded-xl'}>
                 <h1 id='feature' className='text-3xl font-bold mb-6'>Key Features</h1>
@@ -105,10 +116,10 @@ const PortfolioDetails = () => {
 
                 <div className='flex justify-between flex-col lg:flex-row mt-6'>
                     <a target={'_blank'} className={mode ? 'btn bg-white text-black my-3 lg:my-0 text-white' : 'btn btn-accent my-3 lg:my-0 text-white'} href={details?.live}>Live Site</a>
-                    <div className='flex flex-col lg:flex-row '>
+                    {/* <div className='flex flex-col lg:flex-row '>
                         <a target={'_blank'} className={mode ? 'btn btn-success text-white mx-2' : 'btn btn-neutral text-white mx-2'} href={details?.client}>Client Repository</a>
                         <a target={'_blank'} className='btn my-3 lg:my-0 btn-secondary text-white' href={details?.server}>Server Repository</a>
-                    </div>
+                    </div> */}
                 </div>
 
             </div>

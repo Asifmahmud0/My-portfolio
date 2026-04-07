@@ -28,5 +28,11 @@
         "project": "Furnicore",
         "description": "Furnicore is an E-commerse site where you can purchase your desiger furniture for your home or office.",
         "img": "https://i.ibb.co/KyW5dkh/1.png"
+    },
+    {
+        "id": 6,
+        "project": "pinon court",
+        "description": "Enjoy Southwestern charm at Piñon Court, a boutique hotel among hotels in Santa Fe New Mexico, near the historic plaza, with spacious rooms and local ",
+        "img": "/project6/Screenshot_1.png"
     }
 ]
