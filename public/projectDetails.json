@@ -103,32 +103,32 @@
         "server": "https://github.com/redoykhan28/schedulo-server",
         "project_id": 4
     },
-    {
-        "id": "E",
-        "project": "Furnicore",
-        "title": "E-commerse Web Application",
-        "details": "Furnicore is an E-commerse site where you can purchase your desiger furniture for your home or office.",
-        "feature": {
-            "f1": "The Website is fully responsive using tailwind.",
-            "f2": "Here we can get 2 type of user, 1.customer, 2.Admin.",
-            "f3": "Without login a user can't order any furniture",
-            "f4": "Admin has a dashboard with summery of information.",
-            "f5": "Admin can manage users, orders."
-        },
-        "Technologies": " ",
-        "img": {
-            "img1": "https://i.ibb.co/KyW5dkh/1.png",
-            "img2": "https://i.ibb.co/7GL2LN4/2.png",
-            "img3": "https://i.ibb.co/9g7bTmr/3.png",
-            "img4": "https://i.ibb.co/Hp9X0hx/4.png",
-            "img5": "https://i.ibb.co/p0sztTP/5.png",
-            "img6": "https://i.ibb.co/1qsz6Jc/6.png"
-        },
-        "live": "https://furnicore.netlify.app/home",
-        "client": "https://github.com/redoykhan28/furnicore-client",
-        "server": "https://github.com/redoykhan28/furnicore-server",
-        "project_id": 5
+   {
+    "id": "E",
+    "project": "The Barnett (Luxury Boutique Hotel)",
+    "title": "Hospitality Development - Hyatt Brand Portfolio",
+    "details": "Developed this high-end hospitality platform for The Barnett, a luxury boutique hotel in New Orleans’ Warehouse District. I transformed their sophisticated brand identity into a pixel-perfect digital experience, focusing on showcasing their musical heritage, five signature dining destinations, and high-conversion booking flows.",
+    "feature": {
+    "f1": "Luxury responsive UI built with Elementor Pro.",
+    "f2": "Custom ACF backend for room and dining management.",
+    "f3": "Technical SEO optimization for hospitality markets.",
+    "f4": "Dynamic event spaces with integrated inquiry CTAs.",
+    "f5": "Full web accessibility and screen reader support."
     },
+    "Technologies": "WordPress, Elementor Pro, ACF (Advanced Custom Fields), JavaScript, Technical SEO, Google Maps API",
+    "img": {
+        "img1": "/project5/Screenshot_1.png",
+        "img2": "/project5/Screenshot_2.png",
+        "img3": "/project5/Screenshot_3.png",
+        "img4": "/project5/Screenshot_4.png",
+        "img5": "/project5/Screenshot_5.png",
+         "img6": "/project5/Screenshot_6.png"
+
+    },
+    "live": "https://thebarnett.com/",
+    "client": "https://github.com/md-asif-ikbal",
+    "project_id": 5
+},
 
     {
         "id": "F",
