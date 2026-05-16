@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import { useLocation } from 'react-router-dom';
 import { modeContext } from '../../../Context/ModeContext';
 import image from '../../../Images/19197471-removebg-preview.png'
