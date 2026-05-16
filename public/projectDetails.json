@@ -1,56 +1,58 @@
 [
-    {
+     {
         "id": "A",
-        "project": "E-MOBO",
-        "title": "Resale E-commerse Site",
-        "details": "E-MOBO is a resale ecommerse site where you can purchase any resale mobile phone",
+        "project": "pinon court",
+        "title": "Hotels In Santa Fe New Mexico - Piñon Court",
+        "details": "Enjoy Southwestern charm at Piñon Court, a boutique hotel among hotels in Santa Fe New Mexico, near the historic plaza, with spacious rooms and local ",
         "feature": {
-            "f1": "The site is built with three types of users, 1. buyer, 2. seller, and 3. admin.",
-            "f2": "Admin can manage all the buyers and sellers and also verify sellers.",
-            "f3": "Seller can post and advertise products that buyers can purchase by payment using stripe.",
-            "f4": "It is full responsive using tailwind and routing functionality all over the website.",
-            "f5": "website has a blog page and where you can see leatest blog on interesting topics."
-        },
-        "Technologies": "React.JS, Express.JS, Firebase, REST API, tailwind, ES6, Mongo DB, JWT etc",
+            "f1": "Custom Theme Development: Handcrafted WordPress theme built from scratch using clean PHP and modular CSS for maximum performance.",
+            "f2": "Dynamic Room Management: Implemented Advanced Custom Fields (ACF) for high-end management of room types, amenities, and seasonal pricing.",
+            "f3": "SEO & Schema Integration: Implemented Hotel Schema markup and local SEO best practices to improve search engine visibility and direct organic bookings.",
+            "f4": "Bloat-free Performance: Achieved superior loading speeds by avoiding page builders, resulting in a lightweight DOM and 95+ Core Web Vitals score.",
+            "f5": "Mobile-First Architecture: Fully responsive, handcrafted layout designed specifically to provide a premium booking experience on mobile devices."
+},
+       "Technologies": "WordPress, PHP, JavaScript, CSS3/SCSS, ACF (Advanced Custom Fields), REST API, MySQL",
         "img": {
-            "img1": "https://i.ibb.co/BsQg8TR/pic.png",
-            "img2": "https://i.ibb.co/qR60tLq/Capture.png",
-            "img3": "https://i.ibb.co/k1g2PXc/Capture3.png",
-            "img4": "https://i.ibb.co/nnKs04y/Capture4.png",
-            "img5": "https://i.ibb.co/KbFCGn9/Capture5.png",
-            "img6": "https://i.ibb.co/RTpWj8k/Capture6.png"
+            "img1": "/project6/Screenshot_1.png",
+            "img2": "/project6/Screenshot_2.png",
+            "img3": "/project6/Screenshot_3.png",
+            "img4": "/project6/Screenshot_4.png",
+            "img5": "/project6/Screenshot_6.png",
+            "img6": "/project6/Screenshot_7.png",
+            "img7": "/project6/Screenshot_8.png",
+            "img8": "/project6/Screenshot_9.png"
         },
-        "live": "https://e-mobo.web.app/",
-        "client": "https://e-mobo.web.app/",
-        "server": "https://e-mobo.web.app/",
+        "live": "https://pinoncourt.com/",
+        "client": "https://github.com/redoykhan28/furnicore-client",
+        "server": "https://github.com/redoykhan28/furnicore-server",
         "project_id": 1
     },
-    {
-        "id": "B",
-        "project": "DEVENTS",
-        "title": "Event Management Site",
-        "details": "DEVENTS is an event management site where you can hire a proffesional photographer",
-        "feature": {
-            "f1": "The website is fully responsive with bootstrap",
-            "f2": "You can hire an experienced photographer for your specific event from services.",
-            "f3": "Customers can add any specific reviews according to any service.",
-            "f4": "Without login a user can't add his own review but can see any service review",
-            "f5": "website has a blog page and where you can see leatest blog on interesting topics."
-        },
-        "Technologies": "",
-        "img": {
-            "img1": "https://i.ibb.co/C6Nfn3G/pic2.png",
-            "img2": "https://i.ibb.co/yyPxWTy/Capture.png",
-            "img3": "https://i.ibb.co/SKKtf7W/Capture3.png",
-            "img4": "https://i.ibb.co/h2pKSKx/Capture4.png",
-            "img5": "https://i.ibb.co/Xp74VVd/Capture2.png",
-            "img6": "https://i.ibb.co/g6Z4hPH/Capture-5-PNG.png"
-        },
-        "live": "https://devent-88723.web.app/",
-        "client": "https://github.com/redoykhan28/dev-devents-server",
-        "server": "https://github.com/redoykhan28/dev-devents-client",
-        "project_id": 2
+     {
+    "id": "B",
+    "project": "The Barnett (Luxury Boutique Hotel)",
+    "title": "Hospitality Development - Hyatt Brand Portfolio",
+    "details": "Developed this high-end hospitality platform for The Barnett, a luxury boutique hotel in New Orleans’ Warehouse District. I transformed their sophisticated brand identity into a pixel-perfect digital experience, focusing on showcasing their musical heritage, five signature dining destinations, and high-conversion booking flows.",
+    "feature": {
+    "f1": "Luxury responsive UI built with Elementor Pro.",
+    "f2": "Custom ACF backend for room and dining management.",
+    "f3": "Technical SEO optimization for hospitality markets.",
+    "f4": "Dynamic event spaces with integrated inquiry CTAs.",
+    "f5": "Full web accessibility and screen reader support."
     },
+    "Technologies": "WordPress, Elementor Pro, ACF (Advanced Custom Fields), JavaScript, Technical SEO, Google Maps API",
+    "img": {
+        "img1": "/project5/Screenshot_1.png",
+        "img2": "/project5/Screenshot_2.png",
+        "img3": "/project5/Screenshot_3.png",
+        "img4": "/project5/Screenshot_4.png",
+        "img5": "/project5/Screenshot_5.png",
+         "img6": "/project5/Screenshot_6.png"
+
+    },
+    "live": "https://thebarnett.com/",
+    "client": "https://github.com/md-asif-ikbal",
+    "project_id": 2
+},
     {
         "id": "C",
         "project": "Skill Edge",
@@ -72,7 +74,7 @@
             "img5": "https://i.ibb.co/Vtsnkwx/Capture5.png",
             "img6": "https://i.ibb.co/b6cvr2T/Capture6.png"
         },
-        "live": "https://skilled-edge-e-learning-site.web.app/",
+        "live": "#",
         "client": "https://github.com/redoykhan28/dev-skill-edge-client",
         "server": "https://github.com/redoykhan28/dev-skill-edge-server",
         "project_id": 3
@@ -98,64 +100,11 @@
             "img5": "https://i.ibb.co/Cmw6R1t/5.png",
             "img6": "https://i.ibb.co/fvvTk3P/6.png"
         },
-        "live": "https://anicare.netlify.app/home",
+        "live": "#",
         "client": "https://github.com/redoykhan28/schedulo-client",
         "server": "https://github.com/redoykhan28/schedulo-server",
         "project_id": 4
-    },
-   {
-    "id": "E",
-    "project": "The Barnett (Luxury Boutique Hotel)",
-    "title": "Hospitality Development - Hyatt Brand Portfolio",
-    "details": "Developed this high-end hospitality platform for The Barnett, a luxury boutique hotel in New Orleans’ Warehouse District. I transformed their sophisticated brand identity into a pixel-perfect digital experience, focusing on showcasing their musical heritage, five signature dining destinations, and high-conversion booking flows.",
-    "feature": {
-    "f1": "Luxury responsive UI built with Elementor Pro.",
-    "f2": "Custom ACF backend for room and dining management.",
-    "f3": "Technical SEO optimization for hospitality markets.",
-    "f4": "Dynamic event spaces with integrated inquiry CTAs.",
-    "f5": "Full web accessibility and screen reader support."
-    },
-    "Technologies": "WordPress, Elementor Pro, ACF (Advanced Custom Fields), JavaScript, Technical SEO, Google Maps API",
-    "img": {
-        "img1": "/project5/Screenshot_1.png",
-        "img2": "/project5/Screenshot_2.png",
-        "img3": "/project5/Screenshot_3.png",
-        "img4": "/project5/Screenshot_4.png",
-        "img5": "/project5/Screenshot_5.png",
-         "img6": "/project5/Screenshot_6.png"
-
-    },
-    "live": "https://thebarnett.com/",
-    "client": "https://github.com/md-asif-ikbal",
-    "project_id": 5
-},
-
-    {
-        "id": "F",
-        "project": "pinon court",
-        "title": "Hotels In Santa Fe New Mexico - Piñon Court",
-        "details": "Enjoy Southwestern charm at Piñon Court, a boutique hotel among hotels in Santa Fe New Mexico, near the historic plaza, with spacious rooms and local ",
-        "feature": {
-            "f1": "Custom Theme Development: Handcrafted WordPress theme built from scratch using clean PHP and modular CSS for maximum performance.",
-            "f2": "Dynamic Room Management: Implemented Advanced Custom Fields (ACF) for high-end management of room types, amenities, and seasonal pricing.",
-            "f3": "SEO & Schema Integration: Implemented Hotel Schema markup and local SEO best practices to improve search engine visibility and direct organic bookings.",
-            "f4": "Bloat-free Performance: Achieved superior loading speeds by avoiding page builders, resulting in a lightweight DOM and 95+ Core Web Vitals score.",
-            "f5": "Mobile-First Architecture: Fully responsive, handcrafted layout designed specifically to provide a premium booking experience on mobile devices."
-},
-       "Technologies": "WordPress, PHP, JavaScript, CSS3/SCSS, ACF (Advanced Custom Fields), REST API, MySQL",
-        "img": {
-            "img1": "/project6/Screenshot_1.png",
-            "img2": "/project6/Screenshot_2.png",
-            "img3": "/project6/Screenshot_3.png",
-            "img4": "/project6/Screenshot_4.png",
-            "img5": "/project6/Screenshot_6.png",
-            "img6": "/project6/Screenshot_7.png",
-            "img7": "/project6/Screenshot_8.png",
-            "img8": "/project6/Screenshot_9.png"
-        },
-        "live": "https://pinoncourt.com/",
-        "client": "https://github.com/redoykhan28/furnicore-client",
-        "server": "https://github.com/redoykhan28/furnicore-server",
-        "project_id": 6
     }
+
+   
 ]
